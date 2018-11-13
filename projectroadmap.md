@@ -15,6 +15,7 @@
 
 # Testing Phase
 1. Game Testing
+1. Make Changes if Necessary
 
 # Final Submission Phase
 1. Submit Project

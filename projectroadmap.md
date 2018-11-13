@@ -19,3 +19,11 @@
 
 # Final Submission Phase
 1. Submit Project
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```

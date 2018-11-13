@@ -9,9 +9,10 @@
 1. Create Enemy Tank
 1. Create Various Terrain
 1. Edit/Change Sound Files
-1. Create Win Screen
-1. Create Lose Screen
-1. Create Draw Screen
+1. Customize Background                                                                         **DONE**
+1. Customize Win Screen                                                                         **DONE**
+1. Customize Lose Screen                                                                        **DONE**
+1. Customize Draw Screen                                                                        **DONE**
 
 # Testing Phase
 1. Game Testing

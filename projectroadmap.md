@@ -1,13 +1,13 @@
 1. Find Various Tank Games on Github                               DONE
 1. Evaluate Tank Game Code                                         DONE
-[3] Decide to Implement Code into Project                           DONE
-[4] Test Code                                                       DONE
-[5] Create Player Tank
-[6] Create Enemy Tank
-[7] Create Various Terrain
-[8] Edit/Change Sound Files
-[9] Create Win Screen
-[10] Create Lose Screen
-[11] Create Draw Screen
-[12] Game Testing
-[13] Submit Project
+1. Decide to Implement Code into Project                           DONE
+1. Test Code                                                       DONE
+1. Create Player Tank
+1. Create Enemy Tank
+1. Create Various Terrain
+1. Edit/Change Sound Files
+1. Create Win Screen
+1. Create Lose Screen
+1. Create Draw Screen
+1. Game Testing
+1. Submit Project

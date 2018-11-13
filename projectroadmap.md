@@ -1,5 +1,5 @@
-[1] Find Various Tank Games on Github                               DONE
-[2] Evaluate Tank Game Code                                         DONE
+1. Find Various Tank Games on Github                               DONE
+1. Evaluate Tank Game Code                                         DONE
 [3] Decide to Implement Code into Project                           DONE
 [4] Test Code                                                       DONE
 [5] Create Player Tank

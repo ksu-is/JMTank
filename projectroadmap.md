@@ -5,8 +5,8 @@
 1. Test Code                                                                                    **DONE**
 
 # Design Phase
-1. Create Player Tank                                                                           **DONE**
-1. Create Enemy Tank                                                                            **DONE**
+1. Customize Player Tank                                                                           **DONE**
+1. Customize Enemy Tank                                                                            **DONE**
 1. Create Various Terrain
 1. Edit/Change Sound Files
 1. Customize Background                                                                         **DONE**

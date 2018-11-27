@@ -8,7 +8,6 @@
 1. Customize Player Tank                                                                           **DONE**
 1. Customize Enemy Tank                                                                            **DONE**
 1. Create Various Terrain
-1. Edit/Change Sound Files
 1. Customize Background                                                                         **DONE**
 1. Customize Win Screen                                                                         **DONE**
 1. Customize Lose Screen                                                                        **DONE**

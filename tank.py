@@ -91,7 +91,7 @@ def end_loser():
     global energy1
     energy1 = 0
     redraw(False, False)
-    playsound("sound/bang.ogg")
+    playsound("sound/bang.mp3")
     for i in range(1,30):
         clock.tick(100)
         redraw(False, False)
@@ -276,7 +276,7 @@ def is_hit2():
 
 def ball_shoot():
     global bx, by, bsy, in_bang, energy1, energy2
-    playsound("shoot.ogg")
+    playsound("sound/shoot.mp3")
     pygame.time.wait(100)
     while (on_screen(bx, by) or by<0) and not is_earth(bx, by) and not is_hit1() and not is_hit2():
         redraw(False, True)
@@ -287,7 +287,7 @@ def ball_shoot():
     if on_screen(bx, by) and (is_earth(bx, by) or is_hit1() or is_hit2()):
         # Bang:
         in_bang = 10
-        playsound("bang.ogg")
+        playsound("sound/bang.mp3")
         show_bang(int(bx),int(by))
         if is_hit1():
             energy1 -= 10

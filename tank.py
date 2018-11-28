@@ -17,19 +17,19 @@ from pygame.locals import *
 from math import cos, sin, pi
 
 level = random.randint(1,21)
-earth = pygame.image.load('earth' + str(level) + '.png')
-sky = pygame.image.load('sky.png')
-ash = pygame.image.load('ash.png')
-tank1 = pygame.image.load('tank1-nocannon.png')
-cannon1 = pygame.image.load('tank1-cannon.png')
-tank2 = pygame.image.load('tank2-nocannon.png')
-cannon2 = pygame.image.load('tank2-cannon.png')
-cannonash = pygame.image.load('cannonash.png')
-ball = pygame.image.load('ball.png')
-bang = pygame.image.load('bang.png')
-loser = pygame.image.load('loser.png')
-winner = pygame.image.load('winner.png')
-draw = pygame.image.load('draw.png')
+earth = pygame.image.load('images/earth' + str(level) + '.png')
+sky = pygame.image.load('images/sky.png')
+ash = pygame.image.load('images/ash.png')
+tank1 = pygame.image.load('images/tank1-nocannon.png')
+cannon1 = pygame.image.load('images/tank1-cannon.png')
+tank2 = pygame.image.load('images/tank2-nocannon.png')
+cannon2 = pygame.image.load('images/tank2-cannon.png')
+cannonash = pygame.image.load('images/cannonash.png')
+ball = pygame.image.load('images/ball.png')
+bang = pygame.image.load('images/bang.png')
+loser = pygame.image.load('images/loser.png')
+winner = pygame.image.load('images/winner.png')
+draw = pygame.image.load('images/draw.png')
 
 def playsound(sound):
     pygame.mixer.music.fadeout(0)
@@ -91,7 +91,7 @@ def end_loser():
     global energy1
     energy1 = 0
     redraw(False, False)
-    playsound("bang.ogg")
+    playsound("sound/bang.ogg")
     for i in range(1,30):
         clock.tick(100)
         redraw(False, False)
@@ -114,7 +114,7 @@ def end_loser():
         screen.blit(text, (where_x, where_y))
     else:
         screen.blit(loser,(108,0))
-        playsound("laugh.mp3")
+        playsound("sound/laugh.mp3")
     pygame.display.flip()   
     pygame.time.wait(6000)
     exit()
@@ -317,7 +317,7 @@ def test(r, p):
 
 # SETTINGS ON GAME STARTUP
 
-width = 640
+width = 642
 height = 400
 screen = pygame.display.set_mode((width, height))
 running = 1

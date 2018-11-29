@@ -32,9 +32,11 @@ winner = pygame.image.load('images/winner.png')
 draw = pygame.image.load('images/draw.png')
 
 def playsound(sound):
-    pygame.mixer.music.fadeout(1)
+	pygame.mixer.music.load("music.mp3") 
+	pygame.mixer.music.play(-1,0.0)
+    pygame.mixer.music.fadeout(0)
     pygame.mixer.music.load(sound)
-    pygame.mixer.music.play(1)
+    pygame.mixer.music.play(0)
 
 def redraw(show_power, show_ball):
     global in_bang, ash_counter1, ash_counter2

@@ -32,9 +32,9 @@ winner = pygame.image.load('images/winner.png')
 draw = pygame.image.load('images/draw.png')
 
 def playsound(sound):
-    pygame.mixer.music.fadeout(0)
+    pygame.mixer.music.fadeout(1)
     pygame.mixer.music.load(sound)
-    pygame.mixer.music.play(0)
+    pygame.mixer.music.play(1)
 
 def redraw(show_power, show_ball):
     global in_bang, ash_counter1, ash_counter2
@@ -124,9 +124,9 @@ def end_winner():
     pygame.time.wait(4000)
     for i in range(0,255):
         scr_new = scr.copy()
-        green = pygame.Surface((width,height)).convert_alpha()
-        green.fill((0,255,0,i))
-        scr_new.blit(green,(0,0))
+        black = pygame.Surface((width,height)).convert_alpha()
+        black.fill((0,0,0,i))
+        scr_new.blit(black,(0,0))
         screen.blit(scr_new,(0,0))
         pygame.display.flip()
     font = pygame.font.SysFont("comicsansms", 60)

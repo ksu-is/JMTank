@@ -15,6 +15,11 @@ computer's health to zero and keep yours above zero.
 
 Avoid of falling too much since falling may decrease your energy level.
 
-name?
+Jean-Michael Hilliard
 
-Source repo?
+Sources:
+
+https://github.com/kovzol/tank
+
+https://www.youtube.com/channel/UCJbPGzawDH1njbqV-D5HqKw
+
